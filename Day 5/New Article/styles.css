@@ -1,0 +1,42 @@
+/* Add your styles here */
+:root {
+    --red: #ff0000;
+    --lightgray: #d3d3d3;
+    --gray: #808080;
+    --blue: #0000ff;
+    --white: #ffffff;
+    --font-12: 12px;
+    --font-16: 16px;
+    --font-24: 24px;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    padding: 5px;
+    font-family: Arial;
+    font-size: var(--font-24);
+    color: var(--white);
+    background-color: var(--red);
+}
+
+#author-name-and-date {
+    font-family: Arial;
+    font-size: var(--font-12);
+    color: var(--lightgray);
+}
+
+p,
+ol {
+    font-family: "Times New Roman";
+    font-size: var(--font-16);
+    color: var(--gray);
+}
+
+a {
+    font-family: Arial;
+    font-size: var(--font-12);
+    color: var(--blue);
+}
